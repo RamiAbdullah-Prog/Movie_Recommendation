@@ -1,0 +1,23 @@
+we have tow type of search :
+1- Elastic search : Exact Words
+2- Fuzzy search : Approximate Words
+3- sematic search : Meaning of the words ( highly re commeded in ai apps)
+
+1- Elastic search
+if x (Movie) exists in the dataframe, print its imdb_score
+
+'''
+if data['title'].str.contains(x).any():
+    st.write(data[data['title'] == x]['imdb_score'])
+
+else:
+    st.write('Movie not found')
+
+'''
+
+3- sematic search 
+
+'''
+- using Hugingface model ( all-MiniLM-L6-v2 )
+- install ( pip install -U sentence-transformers )
+- 
