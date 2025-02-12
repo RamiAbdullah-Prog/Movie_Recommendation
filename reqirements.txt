@@ -1,5 +1,4 @@
 streamlit
 pandas
 numpy
-sentence-transformers==2.2.0
-python==3.8
+sentence-transformers
