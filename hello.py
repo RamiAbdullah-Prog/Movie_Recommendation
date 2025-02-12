@@ -7,7 +7,7 @@ st.title('Movie Recommender')
 
 st.write('This is a movie recommendation app using Streamlit and Python')
 
-data = pd.read_csv('/Users/ramiabdullah/Documents/AI_Project/STREAMLIT/movies.csv')
+data = pd.read_csv('movies.csv')
 
 
 movie = st.text_input('Enter your favourite movie', key='movie')
